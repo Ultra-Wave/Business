@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daniel's Fashion Studio</title>
+  <link rel="stylesheet" href="fashion.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">Daniel's Fashion</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <!-- Place a banner or hero image below -->
+    <div class="hero-content">
+      <h1 class="animated-title">Unleash Your Style <span>&#10024;</span></h1>
+      <p>Designed by <b>Daniel</b> — Where Fashion Meets Artistry</p>
+      <!-- Replace src with your hero image -->
+      <img src="images/avetetsuya-studios-281541675-5285935394761614-9120592837789446355-n.jpg" alt="Daniel's Fashion Hero" class="hero-img"/>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <h2>About Daniel</h2>
+    <p>
+      Daniel is a passionate fashion designer creating unique and elegant pieces tailored to your individuality.
+    </p>
+    <!-- Optional: Add a profile image here -->
+    <!-- <img src="images/daniel.jpg" alt="Daniel's Portrait" class="profile-img"/> -->
+  </section>
+  <section id="gallery" class="gallery">
+    <h2>Featured Creations</h2>
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- Example image slots. Replace src with Daniel's designs. -->
+      <div class="gallery-item">
+        <img src="images/1723759226211 (1).jpg" alt="Fashion Design 1"/>
+      </div>
+      <div class="gallery-item">
+        <img src="images/e99e30a2b2c1f5632b8615349fcb671c.jpg" alt="Fashion Design 2"/>
+      </div>
+      <div class="gallery-item">
+        <img src="images/0965e69159b12a88cc91d0c0fd19cbb7.jpg" alt="Fashion Design 3"/>
+      </div>
+      <!-- Add more .gallery-item divs as needed -->
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required/>
+      <input type="email" name="email" placeholder="Your Email" required/>
+      <textarea name="message" rows="4" placeholder="How can Daniel help you?" required></textarea>
+      <button type="submit">Send Message</button>
+      <div id="formMessage"></div>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Daniel's Fashion Studio. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
